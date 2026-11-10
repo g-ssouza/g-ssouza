@@ -1,48 +1,120 @@
+<div align="center">
 
-<p align="center">
-  <img src="assets/hero.svg" alt="Gustavo, estudante de back-end com Java e Spring Boot" width="100%">
-</p>
-<table align="center" width="100%">
-  <tr>
-    <td width="33%"><a href="https://www.linkedin.com/in/gustavo-melos-souza-/"><img src="assets/btn-linkedin.svg" alt="LinkedIn" width="100%"></a></td>
-    <td width="33%"><a href="https://github.com/g-ssouza"><img src="assets/btn-github.svg" alt="GitHub" width="100%"></a></td>
-    <td width="33%"><a href="mailto:guudev10l@gmail.com"><img src="assets/btn-email.svg" alt="E-mail" width="100%"></a></td>
-  </tr>
-</table>
-## `$ whoami`
- 
-```bash
-nome      = "Gustavo Souza"
-foco      = "Back-end com Java e Spring Boot"
-banco     = "MySQL"
-front     = ["HTML", "CSS"]
-agilidade = "Scrum"
-status    = "estudando todo dia"
-objetivo  = "construir APIs REST e conquistar minha primeira oportunidade na área"
 ```
- 
-Estou no começo da jornada como desenvolvedor back-end. Hoje estudo **Java** e dei os primeiros passos no **Spring Boot**, aprendendo na prática a criar aplicações e a guardar dados com **MySQL**. Também estudo **HTML** e **CSS** para entender o front-end e **Scrum** para aprender a trabalhar em equipe.
- 
-## `$ ls ~/stack`
- 
-<p align="center">
-  <img src="assets/stack.svg" alt="Java, Spring Boot, MySQL, HTML, CSS e Scrum" width="100%">
-</p>
-## `$ cat roteiro.md`
- 
-<p align="center">
-  <img src="assets/roadmap.svg" alt="Roteiro: 1 Java e POO, 2 Spring Boot, 3 MySQL, 4 Projeto com Scrum" width="100%">
-</p>
-## `$ git log --oneline`
- 
-- 🌱 Aprendendo **Java** e Programação Orientada a Objetos
-- 🍃 Dando os primeiros passos com **Spring Boot**
-- 🗄️ Praticando consultas e modelagem com **MySQL**
-- 🎨 Construindo páginas com **HTML** e **CSS**
-- 🔄 Entendendo o dia a dia de um time com **Scrum**
+██████╗ ██╗   ██╗███████╗████████╗ █████╗ ██╗   ██╗ ██████╗ 
+██╔════╝ ██║   ██║██╔════╝╚══██╔══╝██╔══██╗██║   ██║██╔═══██╗
+██║  ███╗██║   ██║███████╗   ██║   ███████║██║   ██║██║   ██║
+██║   ██║██║   ██║╚════██║   ██║   ██╔══██║╚██╗ ██╔╝██║   ██║
+╚██████╔╝╚██████╔╝███████║   ██║   ██║  ██║ ╚████╔╝ ╚██████╔╝
+ ╚═════╝  ╚═════╝ ╚══════╝   ╚═╝   ╚═╝  ╚═╝  ╚═══╝   ╚═════╝ 
+```
+
+# GUSTAVO SOUZA
+
+**Junior Developer · Java · Web · São Paulo, Brasil**
+
+`gsouza@lab:~$` **echo "Building things that work"**
+
+<br>
+
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/g-ssouza)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustavo-melos-souza-/)
+[![Email](https://img.shields.io/badge/E--MAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:guudev102@gmail.com)
+
+</div>
+
 ---
- 
-<p align="center">
-  <sub><code>dev@lab:~$ echo "aprendendo em público, um commit por vez"</code></sub>
-</p>
- 
+
+## `$ whoami` · about
+
+<table>
+<tr>
+<td width="220" align="center">
+<img src="gustavo_pixel.png" width="180" style="border-radius: 8px; image-rendering: pixelated;" alt="Gustavo Souza"/>
+<br>
+<code>gsouza@lab</code>
+</td>
+<td>
+
+```yaml
+OS           : Windows / Linux
+Host         : São Paulo, Brasil
+Kernel       : Junior Developer
+Uptime       : Always learning
+Education    : Em formação / Autodidata
+Languages    : Java, HTML, CSS, MySQL
+Focus        : Backend · Web · Banco de Dados
+Methodologies: Scrum
+Stack        : Java + MySQL + HTML/CSS
+Hobbies      : Código, café e resolução de problemas
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+### Sobre mim
+
+Comecei a programar buscando entender como as coisas funcionam por baixo dos panos.  
+Gosto de transformar problemas em soluções limpas e funcionais.
+
+Atualmente foco em **Java**, **MySQL**, **HTML** e **CSS**, além de metodologias ágeis com **Scrum**.  
+Aprendo fazendo: montar, testar, quebrar e reconstruir até funcionar direito.
+
+> *"Prefiro trabalhar bare metal — nada entre eu e a máquina."*
+
+---
+
+## `$ inventory` · stack
+
+### Equipado (Daily Use)
+
+| Java | MySQL | HTML | CSS | Scrum |
+|:----:|:-----:|:----:|:---:|:-----:|
+| ☕ | 🗄️ | 🌐 | 🎨 | 📋 |
+
+```text
+[JAVA]     Backend & lógica de negócio
+[MYSQL]    Modelagem e consultas
+[HTML]     Estrutura de páginas
+[CSS]      Estilização e layout
+[SCRUM]    Organização e entrega incremental
+```
+
+---
+
+## `$ projects` · em breve
+
+Estou construindo meu portfólio. Em breve você encontrará aqui:
+
+- Sistemas em **Java**
+- Bancos de dados **MySQL**
+- Interfaces web com **HTML/CSS**
+- Projetos aplicando **Scrum**
+
+Fique de olho 👀
+
+---
+
+## `$ contact` · ping gustavo
+
+Quer conversar sobre código, Java, banco de dados ou oportunidades?
+
+- **LinkedIn** → [gustavo-melos-souza-](https://www.linkedin.com/in/gustavo-melos-souza-/)
+- **Email** → [guudev102@gmail.com](mailto:guudev102@gmail.com)
+- **GitHub** → [g-ssouza](https://github.com/g-ssouza)
+
+---
+
+<div align="center">
+
+```
+gsouza@lab:~$ _
+```
+
+**Obrigado por visitar!**  
+Feito com ☕ + 💻 em São Paulo, Brasil
+
+</div>
