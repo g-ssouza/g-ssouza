@@ -1,120 +1,61 @@
-<div align="center">
+<!--
+  Every panel on this profile is an SVG drawn by gen/ (Python, no dependencies)
+  and redrawn every 3 hours by .github/workflows/profile.yml with live numbers from the GitHub API.
+-->
 
-```
-██████╗ ██╗   ██╗███████╗████████╗ █████╗ ██╗   ██╗ ██████╗ 
-██╔════╝ ██║   ██║██╔════╝╚══██╔══╝██╔══██╗██║   ██║██╔═══██╗
-██║  ███╗██║   ██║███████╗   ██║   ███████║██║   ██║██║   ██║
-██║   ██║██║   ██║╚════██║   ██║   ██╔══██║╚██╗ ██╔╝██║   ██║
-╚██████╔╝╚██████╔╝███████║   ██║   ██║  ██║ ╚████╔╝ ╚██████╔╝
- ╚═════╝  ╚═════╝ ╚══════╝   ╚═╝   ╚═╝  ╚═╝  ╚═══╝   ╚═════╝ 
-```
+<p align="center">
+  <a href="https://github.com/g-ssouza"><img src="assets/banner.svg" width="100%" alt="GUSTAVO SOUZA · Junior Developer · São Paulo, Brazil"></a>
+</p>
 
-# GUSTAVO SOUZA
+<p align="center"><a href="https://github.com/g-ssouza"><img src="assets/button-portfolio.svg" width="33.333%" alt="Portfolio"></a><a href="https://www.linkedin.com/in/gustavo-melos-souza-/"><img src="assets/button-linkedin.svg" width="33.333%" alt="LinkedIn"></a><a href="mailto:guudev102@gmail.com"><img src="assets/button-email.svg" width="33.333%" alt="E-mail"></a></p>
 
-**Junior Developer · Java · Web · São Paulo, Brasil**
+### `$ whoami` &nbsp;·&nbsp; about
 
-`gsouza@lab:~$` **echo "Building things that work"**
+<p align="center">
+  <img src="assets/fetch.svg" width="100%" alt="ASCII portrait next to a neofetch-style card with Gustavo Souza profile info">
+</p>
 
-<br>
+Comecei a programar querendo entender **como as coisas funcionam por baixo**.  
+Gosto da fronteira entre a lógica e a interface — onde o código vira algo real.
 
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/g-ssouza)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustavo-melos-souza-/)
-[![Email](https://img.shields.io/badge/E--MAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:guudev102@gmail.com)
-
-</div>
-
----
-
-## `$ whoami` · about
-
-<table>
-<tr>
-<td width="220" align="center">
-<img src="gustavo_pixel.png" width="180" style="border-radius: 8px; image-rendering: pixelated;" alt="Gustavo Souza"/>
-<br>
-<code>gsouza@lab</code>
-</td>
-<td>
-
-```yaml
-OS           : Windows / Linux
-Host         : São Paulo, Brasil
-Kernel       : Junior Developer
-Uptime       : Always learning
-Education    : Em formação / Autodidata
-Languages    : Java, HTML, CSS, MySQL
-Focus        : Backend · Web · Banco de Dados
-Methodologies: Scrum
-Stack        : Java + MySQL + HTML/CSS
-Hobbies      : Código, café e resolução de problemas
-```
-
-</td>
-</tr>
-</table>
-
----
-
-### Sobre mim
-
-Comecei a programar buscando entender como as coisas funcionam por baixo dos panos.  
-Gosto de transformar problemas em soluções limpas e funcionais.
-
-Atualmente foco em **Java**, **MySQL**, **HTML** e **CSS**, além de metodologias ágeis com **Scrum**.  
+Hoje foco em **Java**, **MySQL**, **HTML** e **CSS**, organizando o trabalho com **Scrum**.  
 Aprendo fazendo: montar, testar, quebrar e reconstruir até funcionar direito.
 
-> *"Prefiro trabalhar bare metal — nada entre eu e a máquina."*
-
----
-
-## `$ inventory` · stack
-
-### Equipado (Daily Use)
-
-| Java | MySQL | HTML | CSS | Scrum |
-|:----:|:-----:|:----:|:---:|:-----:|
-| ☕ | 🗄️ | 🌐 | 🎨 | 📋 |
-
-```text
-[JAVA]     Backend & lógica de negócio
-[MYSQL]    Modelagem e consultas
-[HTML]     Estrutura de páginas
-[CSS]      Estilização e layout
-[SCRUM]    Organização e entrega incremental
+```diff
+@@ bio.md · fix(bio): take off shoes @@
+- I prefer working with shoes on: layer after layer between me and the machine.
++ I prefer working barefoot: bare metal, nothing between me and the machine.
 ```
 
----
+### `$ inventory --equipped` &nbsp;·&nbsp; stack
 
-## `$ projects` · em breve
+<p align="center">
+  <img src="assets/loadout.svg" width="100%" alt="Equipped: Java, MySQL, HTML, CSS, Scrum, Git">
+</p>
 
-Estou construindo meu portfólio. Em breve você encontrará aqui:
+### `$ ls ~/projects` &nbsp;·&nbsp; projects
 
-- Sistemas em **Java**
-- Bancos de dados **MySQL**
-- Interfaces web com **HTML/CSS**
-- Projetos aplicando **Scrum**
+<p align="center"><img src="assets/project-java-systems.svg" width="50%" alt="Sistemas Java"><img src="assets/project-web-interfaces.svg" width="50%" alt="Interfaces Web"></p>
+<p align="center">
+  <img src="assets/project-portfolio.svg" width="100%" alt="Portfólio em construção">
+</p>
 
-Fique de olho 👀
+### `$ gh status` &nbsp;·&nbsp; github
 
----
+<p align="center"><img src="assets/stats.svg" width="50%" alt="GitHub stats"><img src="assets/langs.svg" width="50%" alt="Languages"></p>
+<p align="center"><img src="assets/streak.svg" width="50%" alt="Contribution streak"><img src="assets/trophies.svg" width="50%" alt="Trophies"></p>
+<p align="center">
+  <img src="assets/activity.svg" width="100%" alt="Activity graph">
+</p>
+<p align="center">
+  <img src="assets/snake.svg" width="100%" alt="Contribution snake">
+</p>
 
-## `$ contact` · ping gustavo
+### `$ ping gsouza` &nbsp;·&nbsp; contact
 
-Quer conversar sobre código, Java, banco de dados ou oportunidades?
+Quer falar sobre código, Java, banco de dados ou oportunidades?  
+Reach me on [LinkedIn](https://www.linkedin.com/in/gustavo-melos-souza-/) or at [guudev102@gmail.com](mailto:guudev102@gmail.com).
 
-- **LinkedIn** → [gustavo-melos-souza-](https://www.linkedin.com/in/gustavo-melos-souza-/)
-- **Email** → [guudev102@gmail.com](mailto:guudev102@gmail.com)
-- **GitHub** → [g-ssouza](https://github.com/g-ssouza)
-
----
-
-<div align="center">
-
-```
-gsouza@lab:~$ _
-```
-
-**Obrigado por visitar!**  
-Feito com ☕ + 💻 em São Paulo, Brasil
-
-</div>
+<p align="center">
+  <img src="assets/footer.svg" width="100%" alt="Obrigado por visitar">
+</p>
