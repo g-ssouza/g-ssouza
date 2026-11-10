@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 84" width="100%" role="img" aria-label="E-MAIL">
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+    .sweep { transform-box: fill-box; transform-origin: left; animation: sweep 3.2s ease-in-out infinite; animation-delay: 1.0s; }
+    @keyframes sweep { 0% { transform: scaleX(0); } 55%,100% { transform: scaleX(1); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect x="2" y="2" width="376" height="80" rx="14" fill="#101828" stroke="#F89820" stroke-opacity=".55" stroke-width="2"/>
+  <rect x="22" y="20" width="44" height="44" rx="10" fill="#F89820" fill-opacity=".16"/>
+  <text x="44" y="50" font-size="24" font-weight="700" fill="#F89820" text-anchor="middle">@</text>
+  <text x="86" y="50" font-size="26" font-weight="700" fill="#E6EDF7" letter-spacing="4">E-MAIL</text>
+  <rect class="sweep" x="22" y="72" width="336" height="4" rx="2" fill="#F89820"/>
+</svg>

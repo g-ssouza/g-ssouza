@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" width="100%" role="img" aria-labelledby="t d">
+  <title id="t">Meu roteiro de estudos</title>
+  <desc id="d">Quatro etapas em sequência: Java e POO, Spring Boot, MySQL e projeto com Scrum.</desc>
+  <defs>
+    <linearGradient id="line" gradientUnits="userSpaceOnUse" x1="150" y1="0" x2="1050" y2="0">
+      <stop offset="0" stop-color="#F89820"/><stop offset=".35" stop-color="#6DB33F"/><stop offset=".7" stop-color="#4FA3E0"/><stop offset="1" stop-color="#2EC4B6"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .path { stroke-dasharray: 900; animation: draw 2.6s ease-out .3s backwards; }
+    @keyframes draw { from { stroke-dashoffset: 900; } to { stroke-dashoffset: 0; } }
+    .step { animation: rise .6s ease-out backwards; }
+    @keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect width="1200" height="230" rx="24" fill="#0A0F1A"/>
+  <line class="path" x1="150" y1="80" x2="1050" y2="80" stroke="url(#line)" stroke-width="6" stroke-linecap="round"/>
+  <g class="step" style="animation-delay:0.50s">
+    <circle cx="150" cy="80" r="30" fill="#F89820"/>
+    <text x="150" y="91" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="28" font-weight="700" fill="#0A0F1A">1</text>
+    <text x="150" y="156" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">Java e POO</text>
+    <text x="150" y="192" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" fill="#8EA0BA">A base de tudo</text>
+  </g>
+  <g class="step" style="animation-delay:1.10s">
+    <circle cx="450" cy="80" r="30" fill="#6DB33F"/>
+    <text x="450" y="91" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="28" font-weight="700" fill="#0A0F1A">2</text>
+    <text x="450" y="156" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">Spring Boot</text>
+    <text x="450" y="192" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" fill="#8EA0BA">Minhas primeiras APIs</text>
+  </g>
+  <g class="step" style="animation-delay:1.70s">
+    <circle cx="750" cy="80" r="30" fill="#4FA3E0"/>
+    <text x="750" y="91" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="28" font-weight="700" fill="#0A0F1A">3</text>
+    <text x="750" y="156" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">MySQL</text>
+    <text x="750" y="192" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" fill="#8EA0BA">Guardar e consultar dados</text>
+  </g>
+  <g class="step" style="animation-delay:2.30s">
+    <circle cx="1050" cy="80" r="30" fill="#2EC4B6"/>
+    <text x="1050" y="91" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="28" font-weight="700" fill="#0A0F1A">4</text>
+    <text x="1050" y="156" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">Projeto com Scrum</text>
+    <text x="1050" y="192" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" fill="#8EA0BA">Tudo junto, em sprints</text>
+  </g>
+</svg>
