@@ -21,11 +21,6 @@ Gosto da fronteira entre a lógica e a interface — onde o código vira algo re
 Hoje foco em **Java**, **MySQL**, **HTML** e **CSS**, organizando o trabalho com **Scrum**.  
 Aprendo fazendo: montar, testar, quebrar e reconstruir até funcionar direito.
 
-```diff
-@@ bio.md · fix(bio): tirar os sapatos @@
-- Prefiro trabalhar de sapato: camada atrás de camada entre eu e a máquina.
-+ Prefiro trabalhar descalço: bare metal, nada entre eu e a máquina.
-```
 
 ### `$ inventory --equipped` &nbsp;·&nbsp; stack
 
