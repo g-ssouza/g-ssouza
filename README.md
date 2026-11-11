@@ -7,7 +7,7 @@
   <a href="https://github.com/g-ssouza"><img src="assets/banner.svg" width="100%" alt="GUSTAVO SOUZA · Desenvolvedor Júnior · São Paulo, Brasil"></a>
 </p>
 
-<p align="center"><a href="https://github.com/g-ssouza"><img src="assets/button-portfolio.svg" width="33.333%" alt="Portfólio"></a><a href="https://www.linkedin.com/in/gustavo-melos-souza-/"><img src="assets/button-linkedin.svg" width="33.333%" alt="LinkedIn"></a><a href="mailto:guudev102@gmail.com"><img src="assets/button-email.svg" width="33.333%" alt="E-mail"></a></p>
+<p align="center"><a href="https://github.com/g-ssouza"><img src="assets/button-portfolio.svg" width="33.333%" alt="Portfólio"></a><a href="https://www.linkedin.com/in/gustavo-melos-souza-/"><img src="assets/button-linkedin.svg" width="33.333%" alt="LinkedIn"></a><a href="mailto:guudev10@gmail.com"><img src="assets/button-email.svg" width="33.333%" alt="E-mail"></a></p>
 
 ### `$ whoami` &nbsp;·&nbsp; sobre
 
@@ -51,7 +51,7 @@ Aprendo fazendo: montar, testar, quebrar e reconstruir até funcionar direito.
 ### `$ ping gsouza` &nbsp;·&nbsp; contato
 
 Quer conversar sobre código, Java, banco de dados ou oportunidades?  
-Me chama no [LinkedIn](https://www.linkedin.com/in/gustavo-melos-souza-/) ou no e-mail [guudev102@gmail.com](mailto:guudev102@gmail.com).
+Me chama no [LinkedIn](https://www.linkedin.com/in/gustavo-melos-souza-/) ou no e-mail [guudev10@gmail.com](mailto:guudev10@gmail.com).
 
 <p align="center">
   <img src="assets/footer.svg" width="100%" alt="Obrigado por visitar">
