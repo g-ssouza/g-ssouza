@@ -18,7 +18,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ASSETS = os.path.join(ROOT, "assets")
 
 SCENES = ["banner", "buttons", "fetch", "loadout", "projects", "stats", "langs", "streak",
-          "activity", "trophies", "snake", "footer"]
+          "activity", "snake", "footer"]
 
 
 def load_data(cfg, cache):

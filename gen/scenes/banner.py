@@ -144,13 +144,10 @@ def render(cfg, data, path):
             f'fill="url(#shine)" transform="skewX(-18)"/></g></g></g>',
             f'<rect class="head" x="{X0 - 3}" y="{y0 - 6}" width="3" height="{7 * p + 12}" fill="#fff" filter="url(#glow)"/>')
 
-    # 小笠原 光 · role · city
+    # role · city (sem japonês)
     y = 238
-    doc.add(text(X0, y, cfg["name_jp"], "jp tx", 30))
-    x = X0 + 152
-    doc.add(rect(x, y - 13, 7, 7, GOLD))
-    doc.add(text(x + 22, y - 2, cfg["role"], "gold2 b", 20))
-    x += 22 + tw(cfg["role"], 20) + 18
+    doc.add(text(X0, y, cfg["role"], "gold2 b", 22))
+    x = X0 + tw(cfg["role"], 22) + 24
     doc.add(rect(x, y - 13, 7, 7, FAINT))
     doc.add(text(x + 22, y - 2, cfg["location"], "mut", 16))
 
