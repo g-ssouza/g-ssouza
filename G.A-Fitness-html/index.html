@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dev Barber: corte, barba e agendamento rápido pelo WhatsApp.">
+  <title>G.A. FITNESS - Sua Academia!</title>
+
+  <!-- Animações ao rolar a página (AOS) -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Ícones (Font Awesome) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- Nosso CSS (por último, para vencer os anteriores em caso de empate).
+       A fonte Sora é carregada por ele, a partir da pasta fontes/ -->
+  <link rel="stylesheet" href="estilo.css">
+
+  <style>
+    html{
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- CABEÇALHO -->
+  <div class="fundo-inicio">
+    <header>
+
+      <nav class="cabecalho-conteudo conteiner">
+        <div class="cabecalho-ga" data-aos="fade-down">
+          <p><a href="#inicio"> GERAÇÃO<span class="letra-vermelha"> ATIVA</span></a></p>
+        </div>
+
+        <div class="cabecalho-links" data-aos="fade-up" data-aos-delay="300">
+          <a href="#sobre">Sobre</a>
+          <a href="#contato">Contatos</a>
+          <a href="#planos">Planos</a>
+        </div>
+
+        <div data-aos="fade-down">
+          <a class="cabecalho-botao" id="sou-aluno" href="./login/index.html" target="_blank" rel="noopener">Já Sou Aluno</a>
+          
+          <a class="cabecalho-botao"
+             href="/cadastro/index.html"
+             target="_blank" rel="noopener">
+            Quero ser Ativo
+          </a>
+        </div>
+      </nav>
+
+      <main class="destaque conteiner" data-aos="fade-up" data-aos-delay="400">
+        <div class="container-main" id="inicio"><h1>SUA<span class="letra-vermelha"> GERAÇÃO</span> MAIS<span class="letra-vermelha"> ATIVA</span></h1>
+        <p><b>Transforme sua força em conquistas.</b></p></div>
+        
+        
+      </main>
+
+    </header>
+  </div>
+
+  <!-- SOBRE -->
+  <section class="sobre" id="sobre">
+    <div class="conteiner sobre-conteudo">
+      <div data-aos="zoom-in" data-aos-delay="100">
+        <img src="imagem/foto-sobre.svg" alt="Fotos de cortes de cabelo e barba feitos na barbearia">
+      </div>
+
+      <div class="sobre-descricao" data-aos="zoom-out-left" data-aos-delay="250">
+        <h2>Sobre</h2>
+        <p>Bem-vindo à G.A. FITNESS, a academia feita para a sua rotina, independentemente da hora! Sabemos que o dia a dia é corrido e encontrar um tempo para cuidar da saúde, da mente e do corpo nem sempre encaixa no horário comercial. Por isso, abrimos nossas portas 24 horas por dia, garantindo que você treine exatamente quando quiser e puder.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. SEÇÃO PLANOS -->
+  <section id="planos" class="planos container">
+    <h2 >CONHEÇA<br><span class="red">NOSSOS PLANOS</span></h2>
+
+    
+    <div class="planos-grid">
+      <!-- Plano Básico -->
+      <div class="card-plano">
+        <h3>Plano Básico</h3>
+        <p class="desc">O plano ideal para quem quer treinar no seu tempo, sem compromisso de longo prazo.</p>
+        <p class="fidelidade">Fidelidade: Sem Fidelidade</p>
+        
+        <div class="preco">
+          <span class="valor">R$ 79,90</span>
+          <span class="periodo">Por mês</span>
+        </div>
+
+        <a class="plano-botao"
+             href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20assinar%20o%20Plano%20Básico!"
+             target="_blank" rel="noopener">
+            Escolher Plano          </a>
+
+        <div class="beneficios">
+          <p class="inclui">Inclui:</p>
+          <ul>
+            <li class="ativo">✓ Acesso ilimitado 24 horas à unidade</li>
+            <li class="ativo">✓ Acesso a todas as áreas (Musculação, Cardio, Pesos Livres)</li>
+            <li class="ativo">✓ Treinos personalizados no aplicativo G.A. FITNESS</li>
+            <li class="inativo">✕ Armário privativo</li>
+            <li class="inativo">✕ Área de descanso</li>
+            <li class="inativo">✕ Cadeira de massagem do Smart Spa</li>
+            <li class="inativo">✕ 5 acessos mensais para levar convidados</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Plano VIP (Destaque) -->
+      <div class="card-destaque">
+        <h3>Plano VIP</h3>
+        <p class="desc">Treine com total liberdade 24h por dia e traga seus amigos para treinar com você!</p>
+        <p class="fidelidade">Fidelidade: 12 meses</p>
+        
+        <div class="preco">
+          <span class="valor">R$ 160,00</span>
+          <span class="periodo">Por mês</span>
+        </div>
+
+        <a class="destaque-botao"
+             href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20assinar%20o%20Plano%20VIP!"
+             target="_blank" rel="noopener">
+            Escolher Plano          </a>
+
+        <div class="beneficios">
+          <p class="inclui">Inclui:</p>
+          <ul>
+            <li class="ativo">✓ Acesso ilimitado 24 horas à unidade</li>
+            <li class="ativo">✓ Acesso a todas as áreas (Musculação, Cardio, Pesos Livres)</li>
+            <li class="ativo">✓ Treinos personalizados no aplicativo G.A. FITNESS</li>
+            <li class="ativo">✓ Armário privativo</li>
+            <li class="ativo">✓ Área de descanso</li>
+            <li class="ativo">✓ Cadeira de massagem do Smart Spa</li>
+            <li class="ativo">✓ 5 acessos mensais para levar convidados</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Plano Intermediário -->
+      <div class="card-plano">
+        <h3>Plano Intermediário</h3>
+        <p class="desc">Para quem quer treinar sem preocupações e com total flexibilidade de horários.</p>
+        <p class="fidelidade">Fidelidade: 12 meses</p>
+        
+        <div class="preco">
+          <span class="valor">R$ 119,90</span>
+          <span class="periodo">Por mês</span>
+        </div>
+
+        <a class="plano-botao"
+             href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20assinar%20o%20Plano%20Intermediário!"
+             target="_blank" rel="noopener">
+            Escolher Plano          </a>
+        <div class="beneficios">
+          <p class="inclui">Inclui:</p>
+          <ul>
+            <li class="ativo">✓ Acesso ilimitado 24 horas à unidade</li>
+            <li class="ativo">✓ Acesso a todas as áreas (Musculação, Cardio, Pesos Livres)</li>
+            <li class="ativo">✓ Treinos personalizados no aplicativo G.A. FITNESS</li>
+            <li class="ativo">✓ Área de descanso</li>
+            <li class="inativo">✕ Armário privativo</li>
+            <li class="inativo">✕ Cadeira de massagem do Smart Spa</li>
+            <li class="inativo">✕ 5 acessos mensais para levar convidados</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- 4. SEÇÃO APLICATIVO (FAIXA VERMELHA) -->
+  <section class="app-banner">
+    <div class="container app-content">
+      <div class="app-texto">
+        <h2>SEU TREINO NA PALMA DA MÃO<br> SUA EVOLUÇÃO A CADA DIA.</h2>
+      </div>
+      <br>
+      <div class="app-mockup">
+        <!-- Substitua pela imagem dos celulares -->
+        <img src="imagem/celular.png" alt="Aplicativo G.A. Fitness">
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. SEÇÃO SLOGAN & MAPA -->
+  <section class="logo-grande">
+  <div class="cima">
+    <h2>Geração é só um detalhe<br>Ativa é atitude.</h2>
+  </div>
+  <div class="logo">
+    <!-- coloque aqui o logo da SUA marca -->
+    <img src="/imagem/logo.png" alt="Sua marca">
+  </div>
+</section>
+
+
+  <!-- 6. SEÇÃO SLOGAN & MAPA -->
+  <section id="contato" class="localizacao container">
+    <div class="mapa-box">
+      <h2>VENHA <span class="red">NOS CONHECER</span></h2>
+      <!-- Incorpore aqui o iframe real do Google Maps -->
+      <div class="mapa-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14628.879285615027!2d-46.31571425!3d-23.560547299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce709cdd72cb8d%3A0xa0c48f485457b882!2sEscola%20SENAI%20%22Luis%20Eulalio%20de%20Bueno%20Vidigal%20Filho%22!5e0!3m2!1spt-BR!2sbr!4v1795022056332!5m2!1spt-BR!2sbr" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- RODAPÉ -->
+  <footer class="rodape" id="contato">
+    <div class="rodape-icones">
+      <a href="https://instagram.com/g.afitness_" aria-label="Instagram" target="_blank" rel="noopener"><i class="fa-brands fa-instagram fa-2x"></i></a>
+      <a href="https://www.facebook.com/Geração Ativa Fitness" aria-label="Facebook" target="_blank" rel="noopener"><i class="fa-brands fa-facebook fa-2x"></i></a>
+      <a href="mailto:geracaofitness011@gmail.com" aria-label="Email" target="_blank" rel="noopener">
+  <i class="fa-solid fa-envelope fa-2x"></i>
+</a>
+      <a href="https://www.tiktok.com/@gerao.ativa.fitne?_r=1&_t=ZS-9BVyn80tBtC" aria-label="TikTok" target="_blank" rel="noopener"><i class="fa-brands fa-tiktok fa-2x"></i></a>
+
+      <a href="https://open.spotify.com/playlist/1R0YF5GYDRquZlTE28dt3a?si=tjr0yD8eT_OwuwHx7O11fA&utm_source=whatsapp" aria-label="Spotify" target="_blank" rel="noopener"><i class="fa-brands fa-spotify fa-2x"></i></a>
+    </div>
+    <div class="container rodape-content">
+      <div class="rodape-logo">
+        <img src="imagem/logo-grande.svg" alt="Geração Ativa Fitness" width="120">
+        <br>
+      </div>
+      <div class="rodape-copy">
+        <p>Copyright 2026 | Geração Ativa Fitness - Todos os direitos reservados.<br>Desenvolvido por: <br><br>Aline Lima<br>Aquiles Vieira<br>Giovana Leticia <br>Giovanna Santos <br> Gustavo Souza</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BOTÃO FIXO DO WHATSAPP -->
+  <a
+    href="https://api.whatsapp.com/send?phone=5511999028176&text=Quero%20me%20matricular%20na%20Academia%20Geração%20Ativa%20Fitness!"
+    class="botao-whatsapp"
+    target="_blank" rel="noopener"
+    data-aos="zoom-in-up" data-aos-delay="400"
+  >
+    <img src="imagem/whatsapp.svg" alt="Agendar pelo WhatsApp">
+    <span class="dica-texto">Entrar em Contato</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>

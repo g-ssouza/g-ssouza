@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login do Usuário — Academia G.A. Fitness</title>
+  <link rel="stylesheet" href="estilo3.css">
+</head>
+<body>
+
+  <h1>Login do Usuário</h1>
+  <h2>Academia Geração Ativa Fitness</h2>
+
+  <!-- action: para onde os dados vão | method: como eles vão -->
+  <form action="../treinos/index.html" method="GET">
+
+    <!-- GRUPO 1: dados da pessoa -->
+    <fieldset>
+      <legend>Seus dados</legend>
+
+      <p>
+        <label for="email">Email *</label>
+        <input class="campo" type="email" id="email" name="email" autocomplete="email" minlength="3" required>
+      </p>
+
+      <p>
+        <label for="cpf">CPF *</label>
+        <input class="campo" type="text" id="cpf" name="cpf" autocomplete="cpf" placeholder="111.222.333-44" required>
+      </p>
+
+      <p>
+        <label for="senha">Senha *</label>
+        <input class="campo" type="password" id="senha" name="senha"  placeholder="Obrigatório" required>
+      </p>
+    </fieldset>
+
+
+    <p>
+      <input type="checkbox" id="promocoes" name="promocoes" value="sim">
+      <label for="promocoes">Lembra de mim neste dispositivo</label>
+    </p>
+
+    <!-- BOTÕES -->
+    <p>
+       <button class="btn-entrar" type="submit">Entrar</button> 
+
+
+      <button class="btn-limpar" type="reset">Limpar</button>
+    </p>
+
+  </form>
+</body>
+</html>
